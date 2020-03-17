@@ -1,0 +1,96 @@
+bg 
+.my-paragraph {
+  color: blue;
+}
+.short-intro {
+  font-size: 20px;
+  color: grey;
+}
+
+.hyperlinks {
+  color: pink;
+  text-decoration: none;
+}
+
+.first-letter {
+  font-size: 40px;
+}
+
+.section-title {
+  font-size: 20px;
+  color: #c7c7c7;
+}
+
+.content-paragraph {
+  font-size: 12px;
+  color: #afafaf;
+}
+
+.profile-img {
+  border-radius: 100px;
+  height: 200px;
+  width: 200px;
+}
+
+.left-side {
+  float: left;
+  width: 60%;
+}
+
+.right-side {
+  float: right;
+}
+
+body {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.additional-links {
+  list-style-type: square;
+}
+
+/*
+CSS selectors
+starts with . --> class
+starts with # --> id
+just the name --> tag
+*/
+
+.additional-links > li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/*
+  position:
+    static (default)
+    relative
+    absolute
+    fixed
+    sticky
+  top: px/%/vh/vw;
+  right:
+  bottom:
+  left:
+*/
+
+.p-fixed {
+  position: fixed;
+  background-color: aqua;
+  /* top: 400px; */
+  bottom: 30px;
+  /* right: 0; */
+  /* left: 40%; */
+  right: 44px;
+}
+
+.p-absolute {
+  position: absolute;
+  bottom: 30px;
+  right: 44px;
+}
+
+.bg-red {
+  background-color: crimson;
+}
